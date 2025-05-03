@@ -1,0 +1,127 @@
+{
+  "name": "Testing the Rails app",
+  "givens": [
+    {
+      "key": "test0",
+      "name": "EmptyDb",
+      "whens": [],
+      "thens": [
+        {
+          "name": "ThereIsARemixFrontPage: undefined",
+          "error": false
+        },
+        {
+          "name": "RailsHas404Page: undefined",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": [
+        "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+      ]
+    },
+    {
+      "key": "test1",
+      "name": "EmptyDb",
+      "whens": [],
+      "thens": [
+        {
+          "name": "TheGreetingsAre: [object Object]",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": [
+        "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+      ]
+    },
+    {
+      "key": "test1.1",
+      "name": "EmptyDb",
+      "whens": [
+        {
+          "name": "ATodoIsAdded: salutations",
+          "error": true
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheGreetingsAre: [object Object]",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": [
+        "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+      ]
+    },
+    {
+      "key": "test1.2",
+      "name": "EmptyDb",
+      "whens": [
+        {
+          "name": "ATodoIsAdded: whats up",
+          "error": true
+        },
+        {
+          "name": "ATodoIsAdded: good afternoon",
+          "error": true
+        },
+        {
+          "name": "ATodoIsAdded: howdy",
+          "error": true
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheGreetingsAre: [object Object]",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": [
+        "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+      ]
+    },
+    {
+      "key": "test1.3",
+      "name": "EmptyDb",
+      "whens": [
+        {
+          "name": "ATodoIsAdded: ollo?",
+          "error": true
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheGreetingsAre: [object Object]",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": [
+        "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+      ]
+    },
+    {
+      "key": "test2",
+      "name": "SeededDb",
+      "whens": [],
+      "thens": [
+        {
+          "name": "TheGreetingsAre: [object Object]",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": [
+        "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+      ]
+    }
+  ],
+  "checks": [],
+  "fails": 0,
+  "features": [
+    "https://api.github.com/repos/adamwong246/testeranto/issues/8"
+  ]
+}

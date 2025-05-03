@@ -1,0 +1,24 @@
+{
+  "name": "shirtspace-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:adamwong246/shirtspace-example.git",
+  "author": "adam wong <adamwong246@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@remix-run/serve": "^2.16.5",
+    "@types/chai": "^5.2.1",
+    "testeranto": "^0.129.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "rails": "yarn tsx src/rails.ts",
+    "rails-remix": "yarn tsx src/rails-remix.ts",
+    "t-init": "tsx node_modules/testeranto/dist/prebuild/init-docs.mjs",
+    "t-build": "tsx node_modules/testeranto/dist/prebuild/build.mjs",
+    "t-run": "tsx node_modules/testeranto/dist/prebuild/run.mjs",
+    "t-report": "tsx node_modules/testeranto/dist/prebuild/ReportServer.mjs"
+  }
+}

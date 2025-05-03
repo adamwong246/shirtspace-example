@@ -1,0 +1,42 @@
+stdout > stdout: => Booting Puma
+=> Rails 7.2.2.1 application starting in development 
+=> Run `bin/rails server --help` for more startup options
+
+stdout: Puma starting in single mode...
+
+stdout: * Puma version: 6.6.0 ("Return to Forever")
+* Ruby version: ruby 3.1.0p0 (2021-12-25 revision fb4df44d16) [arm64-darwin23]
+*  Min threads: 3
+*  Max threads: 3
+*  Environment: development
+*          PID: 10892
+
+stdout: * Listening on http://127.0.0.1:3001
+
+stdout: * Listening on http://[::1]:3001
+
+stdout: Use Ctrl-C to stop
+
+stdout > stdout: Started GET "/up" for ::1 at 2025-05-02 21:31:18 -0700
+
+stdout > stdout:   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+stdout > stdout: Processing by Rails::HealthController#show as */*
+
+stdout > stdout:   Rendering html template
+
+stdout > stdout:   Rendered html template (Duration: 0.0ms | GC: 0.0ms)
+
+stdout > stdout: Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+
+stdout > stdout: Started GET "/ThisIsNotAPath" for ::1 at 2025-05-02 21:31:18 -0700
+
+stdout > stdout:   
+ActionController::RoutingError (No route matches [GET] "/ThisIsNotAPath"):
+  
+
+stdout > STOP! stop() {
+    return railsProc.kill();
+  }

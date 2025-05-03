@@ -1,0 +1,26 @@
+{
+  "./src/rails-test.ts": {
+    "runTimeError": 0,
+    "typeErrors": 41,
+    "staticErrors": 1,
+    "prompt": "aider --model deepseek/deepseek-chat --load testeranto/justRails/reports/node/./src/rails-test/prompt.txt",
+    "failingFeatures": {}
+  },
+  "./src/rails-launcher-node.ts": {
+    "typeErrors": 26,
+    "staticErrors": 0,
+    "prompt": "aider --model deepseek/deepseek-chat --load testeranto/justRails/reports/node/./src/rails-launcher-node/prompt.txt"
+  },
+  "./src/rails-remix.ts": {
+    "runTimeError": 0,
+    "typeErrors": 43,
+    "staticErrors": 0,
+    "prompt": "aider --model deepseek/deepseek-chat --load testeranto/justRails/reports/node/./src/rails-remix/prompt.txt",
+    "failingFeatures": {}
+  },
+  "./src/rails-remix-launcher.ts": {
+    "typeErrors": 26,
+    "staticErrors": 0,
+    "prompt": "aider --model deepseek/deepseek-chat --load testeranto/justRails/reports/node/./src/rails-remix-launcher/prompt.txt"
+  }
+}

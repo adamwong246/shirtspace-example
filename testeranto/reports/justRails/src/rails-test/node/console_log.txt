@@ -1,0 +1,7 @@
+stdout > polling for url http://localhost:3001/up
+stderr > server is not up... trying again in 3 seconds.
+stdout > rails is up! <!DOCTYPE html><html><body style="background-color: green"></body></html>
+stdout > ThereIsA404Page localhost 3001
+fetch localhost:3001
+stdout > fetched 404
+stderr > goodbye node error 0

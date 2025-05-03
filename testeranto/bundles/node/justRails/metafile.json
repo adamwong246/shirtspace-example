@@ -1,0 +1,630 @@
+{
+  "errors": [],
+  "warnings": [],
+  "metafile": {
+    "inputs": {
+      "../testeranto/src/lib/index.ts": {
+        "bytes": 3089,
+        "imports": [
+          {
+            "path": "../PM/pure.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../PM/node.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../PM/web.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../Types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./abstractBase.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./types.js",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/lib/pmProxy.ts": {
+        "bytes": 8773,
+        "imports": [
+          {
+            "path": "./types",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/lib/abstractBase.ts": {
+        "bytes": 11090,
+        "imports": [
+          {
+            "path": "../Types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": ".",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/lib/pmProxy.ts",
+            "kind": "import-statement",
+            "original": "./pmProxy.js"
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/lib/basebuilder.ts": {
+        "bytes": 5974,
+        "imports": [
+          {
+            "path": "stream",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../Types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": ".",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./abstractBase.js",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/lib/classBuilder.ts": {
+        "bytes": 3174,
+        "imports": [
+          {
+            "path": "../Types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/lib/basebuilder.ts",
+            "kind": "import-statement",
+            "original": "./basebuilder.js"
+          },
+          {
+            "path": "./types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./index.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "./abstractBase.js",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/lib/core.ts": {
+        "bytes": 4489,
+        "imports": [
+          {
+            "path": "../Types.js",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/lib/index.ts",
+            "kind": "import-statement",
+            "original": "./index.js"
+          },
+          {
+            "path": "../testeranto/src/lib/abstractBase.ts",
+            "kind": "import-statement",
+            "original": "./abstractBase.js"
+          },
+          {
+            "path": "../testeranto/src/lib/classBuilder.ts",
+            "kind": "import-statement",
+            "original": "./classBuilder.js"
+          },
+          {
+            "path": "./types",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/PM/index.ts": {
+        "bytes": 1826,
+        "imports": [
+          {
+            "path": "puppeteer-core",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "puppeteer-core/lib/esm/puppeteer",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../lib",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/PM/node.ts": {
+        "bytes": 6829,
+        "imports": [
+          {
+            "path": "net",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "fs",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "path",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "puppeteer-core",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "stream",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../lib",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/PM/index.ts",
+            "kind": "import-statement",
+            "original": "."
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/Node.ts": {
+        "bytes": 2616,
+        "imports": [
+          {
+            "path": "../testeranto/src/lib/core.ts",
+            "kind": "import-statement",
+            "original": "./lib/core.js"
+          },
+          {
+            "path": "../testeranto/src/lib/index.ts",
+            "kind": "import-statement",
+            "original": "./lib/index.js"
+          },
+          {
+            "path": "../testeranto/src/PM/node.ts",
+            "kind": "import-statement",
+            "original": "./PM/node.js"
+          }
+        ],
+        "format": "esm"
+      },
+      "src/rails-test.ts": {
+        "bytes": 4365,
+        "imports": [
+          {
+            "path": "../testeranto/src/Node.ts",
+            "kind": "import-statement",
+            "original": "testeranto/src/Node"
+          },
+          {
+            "path": "testeranto/src/Types",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../../testeranto/src/lib/types",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "assert",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../../testeranto/src/PM",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "testeranto/src/lib",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "node_modules/chai/chai.js": {
+        "bytes": 139547,
+        "imports": [],
+        "format": "esm"
+      },
+      "src/rails-remix.ts": {
+        "bytes": 8912,
+        "imports": [
+          {
+            "path": "../testeranto/src/Node.ts",
+            "kind": "import-statement",
+            "original": "testeranto/src/Node"
+          },
+          {
+            "path": "testeranto/src/Types",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "testeranto/src/lib",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "node_modules/chai/chai.js",
+            "kind": "import-statement",
+            "original": "chai"
+          },
+          {
+            "path": "../../testeranto/src/lib/types",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../../testeranto/src/PM",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "testeranto/src/PM/web",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "child_process",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "testeranto/src/PM/node",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/lib/Sidecar.ts": {
+        "bytes": 153,
+        "imports": [
+          {
+            "path": ".",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/PM/sidecar.ts": {
+        "bytes": 1802,
+        "imports": [
+          {
+            "path": "../lib",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/PM/nodeSidecar.ts": {
+        "bytes": 1582,
+        "imports": [
+          {
+            "path": "net",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../lib",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/PM/sidecar.ts",
+            "kind": "import-statement",
+            "original": "./sidecar"
+          }
+        ],
+        "format": "esm"
+      },
+      "../testeranto/src/NodeSidecar.ts": {
+        "bytes": 581,
+        "imports": [
+          {
+            "path": "../testeranto/src/lib/Sidecar.ts",
+            "kind": "import-statement",
+            "original": "./lib/Sidecar"
+          },
+          {
+            "path": "../testeranto/src/PM/nodeSidecar.ts",
+            "kind": "import-statement",
+            "original": "./PM/nodeSidecar"
+          }
+        ],
+        "format": "esm"
+      },
+      "src/rails-launcher-node.ts": {
+        "bytes": 1095,
+        "imports": [
+          {
+            "path": "child_process",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "testeranto/src/lib",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/NodeSidecar.ts",
+            "kind": "import-statement",
+            "original": "testeranto/src/NodeSidecar"
+          }
+        ],
+        "format": "esm"
+      },
+      "src/rails-remix-launcher.ts": {
+        "bytes": 1971,
+        "imports": [
+          {
+            "path": "child_process",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "testeranto/src/lib",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "../testeranto/src/NodeSidecar.ts",
+            "kind": "import-statement",
+            "original": "testeranto/src/NodeSidecar"
+          }
+        ],
+        "format": "esm"
+      }
+    },
+    "outputs": {
+      "testeranto/bundles/node/justRails/src/rails-test.mjs": {
+        "imports": [
+          {
+            "path": "testeranto/bundles/node/justRails/chunk-DUUOMID7.mjs",
+            "kind": "import-statement"
+          },
+          {
+            "path": "assert",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "exports": [
+          "RectangleTesterantoBaseInterface",
+          "RectangleTesterantoBaseTestImplementation",
+          "default"
+        ],
+        "entryPoint": "src/rails-test.ts",
+        "inputs": {
+          "src/rails-test.ts": {
+            "bytesInOutput": 2731
+          }
+        },
+        "bytes": 3021
+      },
+      "testeranto/bundles/node/justRails/src/rails-remix.mjs": {
+        "imports": [
+          {
+            "path": "testeranto/bundles/node/justRails/chunk-DUUOMID7.mjs",
+            "kind": "import-statement"
+          },
+          {
+            "path": "child_process",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "exports": [
+          "default",
+          "implementation",
+          "tInterface"
+        ],
+        "entryPoint": "src/rails-remix.ts",
+        "inputs": {
+          "node_modules/chai/chai.js": {
+            "bytesInOutput": 130527
+          },
+          "src/rails-remix.ts": {
+            "bytesInOutput": 6772
+          }
+        },
+        "bytes": 145016
+      },
+      "testeranto/bundles/node/justRails/chunk-DUUOMID7.mjs": {
+        "imports": [
+          {
+            "path": "net",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "fs",
+            "kind": "import-statement",
+            "external": true
+          },
+          {
+            "path": "path",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "exports": [
+          "Node_default"
+        ],
+        "inputs": {
+          "../testeranto/src/lib/index.ts": {
+            "bytesInOutput": 481
+          },
+          "../testeranto/src/lib/pmProxy.ts": {
+            "bytesInOutput": 3201
+          },
+          "../testeranto/src/lib/abstractBase.ts": {
+            "bytesInOutput": 6708
+          },
+          "../testeranto/src/lib/basebuilder.ts": {
+            "bytesInOutput": 2873
+          },
+          "../testeranto/src/lib/classBuilder.ts": {
+            "bytesInOutput": 2224
+          },
+          "../testeranto/src/lib/core.ts": {
+            "bytesInOutput": 2769
+          },
+          "../testeranto/src/PM/node.ts": {
+            "bytesInOutput": 5394
+          },
+          "../testeranto/src/PM/index.ts": {
+            "bytesInOutput": 20
+          },
+          "../testeranto/src/Node.ts": {
+            "bytesInOutput": 1228
+          }
+        },
+        "bytes": 25374
+      },
+      "testeranto/bundles/node/justRails/src/rails-launcher-node.mjs": {
+        "imports": [
+          {
+            "path": "testeranto/bundles/node/justRails/chunk-WF7QPI43.mjs",
+            "kind": "import-statement"
+          },
+          {
+            "path": "child_process",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "exports": [
+          "default"
+        ],
+        "entryPoint": "src/rails-launcher-node.ts",
+        "inputs": {
+          "src/rails-launcher-node.ts": {
+            "bytesInOutput": 888
+          }
+        },
+        "bytes": 1114
+      },
+      "testeranto/bundles/node/justRails/src/rails-remix-launcher.mjs": {
+        "imports": [
+          {
+            "path": "testeranto/bundles/node/justRails/chunk-WF7QPI43.mjs",
+            "kind": "import-statement"
+          },
+          {
+            "path": "child_process",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "exports": [
+          "default"
+        ],
+        "entryPoint": "src/rails-remix-launcher.ts",
+        "inputs": {
+          "src/rails-remix-launcher.ts": {
+            "bytesInOutput": 1601
+          }
+        },
+        "bytes": 1829
+      },
+      "testeranto/bundles/node/justRails/chunk-WF7QPI43.mjs": {
+        "imports": [
+          {
+            "path": "net",
+            "kind": "import-statement",
+            "external": true
+          }
+        ],
+        "exports": [
+          "NodeSidecar"
+        ],
+        "inputs": {
+          "../testeranto/src/lib/Sidecar.ts": {
+            "bytesInOutput": 25
+          },
+          "../testeranto/src/PM/nodeSidecar.ts": {
+            "bytesInOutput": 1085
+          },
+          "../testeranto/src/PM/sidecar.ts": {
+            "bytesInOutput": 1541
+          },
+          "../testeranto/src/NodeSidecar.ts": {
+            "bytesInOutput": 460
+          }
+        },
+        "bytes": 3415
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+
+Suite:,0,Testing the Rails app
+
+ test0
+
+ Given: EmptyDb
+ Then!!!:,ThereIsARemixFrontPage: undefined
+
+ test1
+
+ Given: EmptyDb
+ Then!!!:,TheGreetingsAre: [object Object]
+
+ test1.1
+
+ Given: EmptyDb
+ When:,ATodoIsAdded: salutations
+ Then!!!:,TheGreetingsAre: [object Object]
+
+ test1.2
+
+ Given: EmptyDb
+ When:,ATodoIsAdded: whats up
+ When:,ATodoIsAdded: good afternoon
+ When:,ATodoIsAdded: howdy
+ Then!!!:,TheGreetingsAre: [object Object]
+
+ test1.3
+
+ Given: EmptyDb
+ When:,ATodoIsAdded: ollo?
+ Then!!!:,TheGreetingsAre: [object Object]
+
+ test2
+
+ Given: SeededDb
+ Then!!!:,TheGreetingsAre: [object Object]

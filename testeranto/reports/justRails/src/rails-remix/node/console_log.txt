@@ -1,0 +1,67 @@
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3002/up
+stderr > http://localhost:3002/up is not up... trying again in 3 seconds.
+stdout > http://localhost:3002/up is AOK
+stdout > polling for url http://localhost:3003
+stdout > http://localhost:3003 is AOK
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
+stdout > http://localhost:3001/up is AOK
+stdout > polling for url http://localhost:3002
+stdout > http://localhost:3002 is AOK
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
+stdout > http://localhost:3001/up is AOK
+stdout > polling for url http://localhost:3002
+stdout > http://localhost:3002 is AOK
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
+stdout > http://localhost:3001/up is AOK
+stdout > polling for url http://localhost:3002
+stdout > http://localhost:3002 is AOK
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
+stdout > http://localhost:3001/up is AOK
+polling for url http://localhost:3002
+stdout > http://localhost:3002 is AOK
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
+stdout > http://localhost:3001/up is AOK
+stdout > polling for url http://localhost:3002
+stdout > http://localhost:3002 is AOK
+stderr > goodbye node error 0
