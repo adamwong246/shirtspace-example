@@ -75,10 +75,24 @@
       "thens": [
         {
           "name": "TheGreetingsAre: [object Object]",
-          "error": false
+          "error": {
+            "message": "expected { Object (greetingsSortedAndJoined) } to deeply equal { Object (greetingsSortedAndJoined) }",
+            "actual": {
+              "greetingsSortedAndJoined": "good afternoon ---> howdy ---> salutations ---> whats up"
+            },
+            "expected": {
+              "greetingsSortedAndJoined": "good afternoon ---> howdy ---> whats up"
+            },
+            "showDiff": true,
+            "operator": "deepStrictEqual",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected { Object (greetingsSortedAndJoined) } to deeply equal { Object (greetingsSortedAndJoined) }\n    at file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5061:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5120:5)\n    at async Then.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:705:18)\n    at async Given.give (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:336:19)\n    at async Testeranto.constructor.run (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:235:22)\n    at async file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:482:19\n    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:513:29)\n    at async NodeTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:968:12)\n    at async testeranto (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:983:15)"
+          }
         }
       ],
       "error": null,
+      "failed": true,
       "features": [
         "https://api.github.com/repos/adamwong246/testeranto/issues/8"
       ]
@@ -95,10 +109,24 @@
       "thens": [
         {
           "name": "TheGreetingsAre: [object Object]",
-          "error": false
+          "error": {
+            "message": "expected { Object (greetingsSortedAndJoined) } to deeply equal { greetingsSortedAndJoined: 'ollo?' }",
+            "actual": {
+              "greetingsSortedAndJoined": "good afternoon ---> howdy ---> ollo? ---> salutations ---> whats up"
+            },
+            "expected": {
+              "greetingsSortedAndJoined": "ollo?"
+            },
+            "showDiff": true,
+            "operator": "deepStrictEqual",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected { Object (greetingsSortedAndJoined) } to deeply equal { greetingsSortedAndJoined: 'ollo?' }\n    at file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5061:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5120:5)\n    at async Then.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:705:18)\n    at async Given.give (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:336:19)\n    at async Testeranto.constructor.run (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:235:22)\n    at async file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:482:19\n    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:513:29)\n    at async NodeTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:968:12)\n    at async testeranto (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:983:15)"
+          }
         }
       ],
       "error": null,
+      "failed": true,
       "features": [
         "https://api.github.com/repos/adamwong246/testeranto/issues/8"
       ]
@@ -110,17 +138,32 @@
       "thens": [
         {
           "name": "TheGreetingsAre: [object Object]",
-          "error": false
+          "error": {
+            "message": "expected { Object (greetingsSortedAndJoined) } to deeply equal { Object (greetingsSortedAndJoined) }",
+            "actual": {
+              "greetingsSortedAndJoined": "good afternoon ---> howdy ---> ollo? ---> salutations ---> whats up"
+            },
+            "expected": {
+              "greetingsSortedAndJoined": "aloha ---> hello ---> mushi mushi"
+            },
+            "showDiff": true,
+            "operator": "deepStrictEqual",
+            "name": "AssertionError",
+            "ok": false,
+            "stack": "AssertionError: expected { Object (greetingsSortedAndJoined) } to deeply equal { Object (greetingsSortedAndJoined) }\n    at file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5061:16\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5120:5)\n    at async Then.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:705:18)\n    at async Given.give (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:336:19)\n    at async Testeranto.constructor.run (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:235:22)\n    at async file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:482:19\n    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:513:29)\n    at async NodeTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:968:12)\n    at async testeranto (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:983:15)"
+          }
         }
       ],
       "error": null,
+      "failed": true,
       "features": [
         "https://api.github.com/repos/adamwong246/testeranto/issues/8"
       ]
     }
   ],
   "checks": [],
-  "fails": 0,
+  "fails": 3,
+  "failed": true,
   "features": [
     "https://api.github.com/repos/adamwong246/testeranto/issues/8"
   ]

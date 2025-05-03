@@ -6,14 +6,21 @@ const config: IProject = {
 
       tests: [
         // ["./src/react", "pure", { ports: 0 }, []],
-        ["./src/rails-test.ts", "node", { ports: 0 }, [
-          // ["./src/rails-launcher.ts", "pure", { ports: 1 }, []]
-          ["./src/rails-launcher-node.ts", "node", { ports: 1 }, []]
-        ]],
+        // ["./src/rails-test.ts", "node", { ports: 0 }, [
+        //   // ["./src/rails-launcher.ts", "pure", { ports: 1 }, []]
+        //   ["./src/rails-launcher-node.ts", "node", { ports: 1 }, []]
+        // ]],
         ["./src/rails-remix.ts", "node", { ports: 0 }, [
           ["./src/rails-remix-launcher.ts", "node", { ports: 2 }, []]
         ]],
       ],
+
+      externalTests: {
+        rails: {
+          watch: ["src/rails-app/app", "src/rails-app/test"],
+          exec: "cd src/rails-app; source ~/.rvm/scripts/rvm && rake"
+        }
+      },
 
       ports: ["3001", "3002", "3003", "3004", "3005", "3006", "3007"],
       src: "src",

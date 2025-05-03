@@ -1,5 +1,9 @@
 
 /add src/rails-remix-launcher.ts
+/add ../testeranto/src/lib/Sidecar.ts
+/add ../testeranto/src/PM/nodeSidecar.ts
+/add ../testeranto/src/PM/sidecar.ts
+/add ../testeranto/src/NodeSidecar.ts
 
 /read testeranto/reports/justRails/src/rails-remix-launcher/node/lint_errors.json
 /read testeranto/reports/justRails/src/rails-remix-launcher/node/type_errors.txt

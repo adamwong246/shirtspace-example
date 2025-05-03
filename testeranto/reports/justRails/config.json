@@ -1,23 +1,6 @@
 {
   "tests": [
     [
-      "./src/rails-test.ts",
-      "node",
-      {
-        "ports": 0
-      },
-      [
-        [
-          "./src/rails-launcher-node.ts",
-          "node",
-          {
-            "ports": 1
-          },
-          []
-        ]
-      ]
-    ],
-    [
       "./src/rails-remix.ts",
       "node",
       {
@@ -35,6 +18,15 @@
       ]
     ]
   ],
+  "externalTests": {
+    "rails": {
+      "watch": [
+        "src/rails-app/app",
+        "src/rails-app/test"
+      ],
+      "exec": "cd src/rails-app; source ~/.rvm/scripts/rvm && rake"
+    }
+  },
   "ports": [
     "3001",
     "3002",

@@ -4,54 +4,26 @@ Created database 'storage/development.sqlite3'
 Created database 'storage/test.sqlite3'
 
 stderr > EmptyDb stderr: 
-stdout > polling for url http://localhost:3002/up
-stderr > http://localhost:3002/up is not up... trying again in 3 seconds.
-stdout > http://localhost:3002/up is AOK
-stdout > polling for url http://localhost:3003
-stdout > http://localhost:3003 is AOK
-stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
-Dropped database 'storage/test.sqlite3'
-Created database 'storage/development.sqlite3'
+stdout > polling for url http://localhost:3003/up
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+stderr > http://localhost:3003/up is not up... trying again in 3 seconds.
+ite3'
 Created database 'storage/test.sqlite3'
 
 stderr > EmptyDb stderr: 
 stdout > polling for url http://localhost:3001/up
-stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
-stdout > http://localhost:3001/up is AOK
-stdout > polling for url http://localhost:3002
-stdout > http://localhost:3002 is AOK
-stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
-Dropped database 'storage/test.sqlite3'
-Created database 'storage/development.sqlite3'
-Created database 'storage/test.sqlite3'
-
-stderr > EmptyDb stderr: 
-stdout > polling for url http://localhost:3001/up
-stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
-stdout > http://localhost:3001/up is AOK
-stdout > polling for url http://localhost:3002
-stdout > http://localhost:3002 is AOK
-stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
-Dropped database 'storage/test.sqlite3'
-Created database 'storage/development.sqlite3'
-Created database 'storage/test.sqlite3'
-
-stderr > EmptyDb stderr: 
-stdout > polling for url http://localhost:3001/up
-stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
-stdout > http://localhost:3001/up is AOK
-stdout > polling for url http://localhost:3002
-stdout > http://localhost:3002 is AOK
-stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
-Dropped database 'storage/test.sqlite3'
-Created database 'storage/development.sqlite3'
-Created database 'storage/test.sqlite3'
-
-stderr > EmptyDb stderr: 
-stdout > polling for url http://localhost:3001/up
-stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
 stdout > http://localhost:3001/up is AOK
 polling for url http://localhost:3002
+stderr > http://localhost:3002 is not up... trying again in 3 seconds.
 stdout > http://localhost:3002 is AOK
 stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
 Dropped database 'storage/test.sqlite3'
@@ -60,8 +32,86 @@ Created database 'storage/test.sqlite3'
 
 stderr > EmptyDb stderr: 
 stdout > polling for url http://localhost:3001/up
-stderr > http://localhost:3001/up is not up... trying again in 3 seconds.
 stdout > http://localhost:3001/up is AOK
-stdout > polling for url http://localhost:3002
+polling for url http://localhost:3002
+stderr > http://localhost:3002 is not up... trying again in 3 seconds.
 stdout > http://localhost:3002 is AOK
-stderr > goodbye node error 0
+stdout > test failed 3 AssertionError: expected { Object (greetingsSortedAndJoined) } to deeply equal { Object (greetingsSortedAndJoined) }
+    at file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5061:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5120:5)
+    at async Then.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:705:18)
+    at async Given.give (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:336:19)
+    at async Testeranto.constructor.run (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:235:22)
+    at async file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:482:19
+    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:513:29)
+    at async NodeTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:968:12)
+    at async testeranto (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:983:15) {
+  actual: {
+    greetingsSortedAndJoined: 'good afternoon ---> howdy ---> salutations ---> whats up'
+  },
+  expected: {
+    greetingsSortedAndJoined: 'good afternoon ---> howdy ---> whats up'
+  },
+  showDiff: true,
+  operator: 'deepStrictEqual'
+}
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stdout > http://localhost:3001/up is AOK
+polling for url http://localhost:3002
+stderr > http://localhost:3002 is not up... trying again in 3 seconds.
+stdout > http://localhost:3002 is AOK
+stdout > test failed 3 AssertionError: expected { Object (greetingsSortedAndJoined) } to deeply equal { greetingsSortedAndJoined: 'ollo?' }
+    at file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5061:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5120:5)
+    at async Then.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:705:18)
+    at async Given.give (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:336:19)
+    at async Testeranto.constructor.run (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:235:22)
+    at async file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:482:19
+    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:513:29)
+    at async NodeTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:968:12)
+    at async testeranto (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:983:15) {
+  actual: {
+    greetingsSortedAndJoined: 'good afternoon ---> howdy ---> ollo? ---> salutations ---> whats up'
+  },
+  expected: { greetingsSortedAndJoined: 'ollo?' },
+  showDiff: true,
+  operator: 'deepStrictEqual'
+}
+stdout > EmptyDb stdout: Dropped database 'storage/development.sqlite3'
+Dropped database 'storage/test.sqlite3'
+Created database 'storage/development.sqlite3'
+Created database 'storage/test.sqlite3'
+
+stderr > EmptyDb stderr: 
+stdout > polling for url http://localhost:3001/up
+stdout > http://localhost:3001/up is AOK
+polling for url http://localhost:3002
+stderr > http://localhost:3002 is not up... trying again in 3 seconds.
+stdout > http://localhost:3002 is AOK
+stdout > test failed 3 AssertionError: expected { Object (greetingsSortedAndJoined) } to deeply equal { Object (greetingsSortedAndJoined) }
+    at file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5061:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:5120:5)
+    at async Then.butThen (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:705:18)
+    at async Given.give (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:336:19)
+    at async Testeranto.constructor.run (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:235:22)
+    at async file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:482:19
+    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:513:29)
+    at async NodeTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:968:12)
+    at async testeranto (file:///Users/adam/Code/shirtspace-example/testeranto/bundles/node/justRails/src/rails-remix.mjs:983:15) {
+  actual: {
+    greetingsSortedAndJoined: 'good afternoon ---> howdy ---> ollo? ---> salutations ---> whats up'
+  },
+  expected: { greetingsSortedAndJoined: 'aloha ---> hello ---> mushi mushi' },
+  showDiff: true,
+  operator: 'deepStrictEqual'
+}
+stderr > goodbye node error 3
